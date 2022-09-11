@@ -1,0 +1,31 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+ul li a{
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    margin: 0.5rem;
+    flex-direction: column;
+    color:red;
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);;
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+li a:hover{
+    opacity: 0.9;
+}
+ul li a img{
+    height: 15rem;
+    width: 20rem;
+}
+.content .name{
+    color: red;
+    font-size: 20px;
+}
