@@ -27,9 +27,22 @@ ul li a img{
 }
 .content {
     color: red;
-    text-align: center;
+    padding: .5rem 1rem;
+    /* text-align: center; */
     font-size: 20px;
+    position: relative;
 }
 .price{
     font-size: 25px;
+}
+.fav{
+position: absolute;
+top: .5rem;
+right: 1rem;
+}
+.fav.not{
+    color: black;
+}
+.content .name{
+    width: 80%;
 }
